@@ -16,6 +16,7 @@ def add(a):
     display(f'Sum is: {c}', target='out')\
 """
 def trape(a):
+    document.getElementById('out').innerHTML=" "
     a=float(document.getElementById('a').value)
     b=float(document.getElementById('b').value)#Bottom
     h=float(document.getElementById('h').value)#Height
