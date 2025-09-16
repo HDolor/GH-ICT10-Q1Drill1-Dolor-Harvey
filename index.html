@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Trapezoids</title>
+    <script type="py" src="main.py"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---
+    <form>
+        <input type="text" name="" id="username" placeholder="Input Name"><br>
+        <input type="password" name="" id="pass" placeholder="Input Password"><br>
+        <input type="button" name="" id="username" value="Log In" py-click="data"><br>
+    </form>
+    <form action="">
+        <input type="number" id="num1" placeholder="Enter first number"><br>
+        <input type="number" id="num2" placeholder="Enter second number"><br>
+        <input type="button" value="Add" py-click="add">
+    </form>
+    -->
+    <div class="container-fluid mb-3 border-bottom border-4 border-dark bg-primary text-center">
+        <h1 class="text-center fw-bold text-light p-2">Area Of Trapezoids</h1>
+    </div> 
+    <div class="container text-center">
+        <img src="Area-of-a-Trapezoid.png" class="border-dark border-4 border-top" height="235" width="310"><br>
+        <form>
+            <input type="number" id="a" placeholder="Input value for a" class="fw-bold m-3">
+            <input type="number" id="b" placeholder="Input value for b" class="fw-bold m-3"><br>
+            <input type="number" id="h" placeholder="Input value for h" class="fw-bold m-3"><br><hr>
+            <input type="text" id="un" placeholder="Input desire Unit" class="fw-bold m-3"><br> 
+            <div class="alert alert-secondary fw-bold" role="alert">
+                Input Values before pressing the button
+            </div><br>
+            <input type="button" value=" Get Area " class="btn btn-primary fw-bold text-light p-2 border-3 border-dark" py-click="trape"><br>
+
+        </form>
+    </div><br>
+    <div id="out" class="fw-bold text-center fs-2 p-3"></div>
+</body>
+</html>
